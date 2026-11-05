@@ -1,0 +1,118 @@
+
+body {
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+  background-color: rgb(75, 72, 72);
+  color: white;
+}
+
+header h1{
+  font-size: 80px;
+  margin: 5px;
+  color: rgb(255, 255, 255);
+  border-collapse: separate;
+  justify-content: center;
+  text-decoration: underline rgb(255, 0, 0) 3px;
+}
+
+header img{
+  width: 180px;
+  height: auto;
+}
+
+nav {
+  border:  solid 1px rgb(240, 240, 240);
+  background-color: rgb(49, 48, 48);
+  font-size: 20px;
+}
+
+
+main{
+  padding: 1rem;
+  background: linear-gradient(to bottom, rgb(114, 24, 24) 20%, black 80%);
+  border-bottom: rgba(255, 0, 0, 0.889) 2px solid;
+}
+
+
+h4, h5{
+  margin: 0px;
+  padding: 5px;
+  text-align: center;
+}
+
+footer div{
+  font-size: 15px;
+  margin: 8px;
+}
+
+.foot{
+  display: flex;
+  justify-content: center;
+}
+
+footer img{
+  border-radius: 100px;
+  width: 45px;
+  height: 45px;
+  margin-left: 3px;
+}
+
+.nave{
+  column-count: 5;
+  column-gap: 5px;
+  text-align: center;
+  padding: 10px;
+  }
+
+.hist{
+  text-align:center;
+  background-color:red;
+  color: white;
+  padding: 1px;
+  border: black 2px solid;
+  border-radius: 100px;
+} 
+
+.hist:hover{
+  background: linear-gradient(to top, rgb(245, 184, 184), red);
+}
+
+a{
+  text-decoration: none;
+  margin: 10px;
+}
+
+
+h1 {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.col{
+  display: flex;
+  gap: 10px;
+}
+
+.coluno, .coldos, .coltres{
+  flex: 1;
+  padding-right: 25px;
+  text-align: justify;
+  border-radius: 100px;
+  font-size: 17px;
+  background-color: rgb(49, 48, 48);
+  border: white solid 1px;
+  margin: 0px;
+}
+.coluno ol, .coldos ol, .coltres ol{
+  float:  right;
+}
+
+.coluno img, .coldos img, .coltres img{
+  border-radius: 10px;
+  border: 2px solid red;
+  height: auto;
+  width: 70%;
+  margin: 20px;
+}
+
+

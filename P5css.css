@@ -1,0 +1,168 @@
+
+body {
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+  color: white;
+  background-color: rgb(75, 72, 72);
+  font-size: 20px;
+}
+
+header h1{
+  font-size: 80px;
+  margin: 5px;
+  color: rgb(255, 255, 255);
+  border-collapse: separate;
+  justify-content: center;
+  text-decoration: underline rgb(255, 0, 0) 3px;
+}
+
+header img{
+  width: 180px;
+  height: auto;
+}
+
+.FIA{
+  width: auto;
+  height: 180px;
+  margin-left: 10px;
+}
+
+nav {
+  border:  solid 1px rgb(240, 240, 240);
+  background-color: rgb(49, 48, 48);
+  font-size: 20px;
+}
+
+main{
+  padding: 1rem;
+  background: linear-gradient(to bottom, rgb(114, 24, 24) 20%, black 80%);
+  border-bottom: rgba(255, 0, 0, 0.889) 2px solid;
+}
+
+
+h4, h5{
+  margin: 0px;
+  padding: 5px;
+  text-align: center;
+}
+
+footer div{
+  font-size: 15px;
+  margin: 8px;
+}
+
+.foot{
+  display: flex;
+  justify-content: center;
+}
+
+footer img{
+  border-radius: 100px;
+  width: 45px;
+  height: 45px;
+  margin-left: 3px;
+}
+
+.nave{
+  column-count: 5;
+  column-gap: 5px;
+  text-align: center;
+  padding: 10px;
+}
+
+.hist{
+  text-align:center;
+  background-color:red;
+  color: white;
+  padding: 1px;
+  border: black 2px solid;
+  border-radius: 100px;
+} 
+
+.hist:hover{
+  background: linear-gradient(to top, rgb(245, 184, 184), red);
+}
+
+a{
+  text-decoration: none;
+  margin: 10px;
+  color: rgb(82, 237, 157);
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.cajaform{
+  display: flex;
+}
+
+.form{
+  margin: 8px;
+  padding: 15px;
+  padding-right: 300px;
+  background-color:rgb(49, 48, 48);
+  border-radius: 10px;
+  border: white 1px solid;
+}
+
+.cajauno{
+  flex: 1;
+
+}
+.cajauno h2{
+  text-decoration: underline;
+}
+
+.cajados{
+  flex: 1;
+  border-left:2px white solid
+}
+
+.cajados h6{
+  margin: 20px;
+  padding-top: 20px;
+  text-align: justify;
+  border-top: gray 3px dotted;
+}
+
+.cajados div{
+  margin-top: 40px;
+}
+
+.submit{
+  align-items: center;
+  background-color:rgb(49, 48, 48);
+  border-radius: 10px;
+  border: white 1px solid;
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  color: white;
+  font-size: 20px;
+}
+
+.submit:hover{
+  background-color: red;
+  font-size: 100%;
+}
+
+input, textarea{
+  color: rgb(255, 255, 255);
+}
+
+input::placeholder, textarea::placeholder{
+  color: rgb(255, 255, 255);
+}
+
+input:hover, textarea:hover{
+  text-shadow: 1px 1px 2px rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+  font-size: 80%;
+}
+
+input:focus , textarea:focus{
+  text-shadow:none;
+  font-size: 80%;
+}
